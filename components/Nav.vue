@@ -29,15 +29,15 @@ export default {}
   &__container {
     width: 80%;
     height: 100%;
-    padding: 2rem 1.5rem;
+    padding: 1.5rem;
     background-color: $color--white;
     transition: transform 0.25s cubic-bezier(0, 0, 0.5, 1);
   }
 
   &__link {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     display: block;
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     line-height: 3rem;
 
     &.nuxt-link-exact-active {

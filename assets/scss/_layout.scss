@@ -1,0 +1,27 @@
+.container {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.row {
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 0 0 auto;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+
+  &--6 {
+    @extend .col;
+    flex: 0 0 50%;
+  }
+
+  &--12 {
+    @extend .col;
+    flex: 0 0 100%;
+  }
+}

@@ -15,7 +15,7 @@
 
     <div class="row">
       <div class="col--12">
-        <Button class="product__add" text="Check Out" primary />
+        <Button class="product__add" text="Add To Cart" primary />
       </div>
     </div>
 

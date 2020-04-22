@@ -27,7 +27,9 @@
 
     <div class="row">
       <div class="col--12">
-        <Button text="Continue Shopping" secondary />
+        <n-link to="/shop">
+          <Button text="Continue Shopping" secondary />
+        </n-link>
       </div>
       <div class="col--12">
         <Button class="cart__submit" text="Check Out" primary />
